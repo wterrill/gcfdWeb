@@ -12897,8 +12897,8 @@ while(true)switch(s){case 0:s=2
 return P.a0(E.eO(!0,new L.W4(E.ez(null,T.b4(H.a([M.x(null,L.r("The Audit has been successfully saved and will upload during the next sync",null,null,null,null,null,null,null,null,null,null,null),null,null,null,null,null,new V.aa(5,0,0,0),null,null,null)],t.t),C.k,C.lR,C.j,null),null,null,null)),a,null,!0,t.H),$async$W3)
 case 2:return P.S(null,r)}})
 return P.T($async$W3,r)},
-h2:function(a,b){var s=null
-E.eO(!0,new L.VU(E.ez(s,T.at(H.a([L.r(b,s,s,s,s,s,s,s,s,s,s,s)],t.t),C.ad,C.m,C.af),6,s,s)),a,s,!0,t.H)},
+h2:function(a,b,c){var s=null
+E.eO(b,new L.VU(E.ez(s,T.at(H.a([L.r(c,s,s,s,s,s,s,s,s,s,s,s)],t.t),C.ad,C.m,C.af),6,s,s)),a,s,!0,t.H)},
 W7:function(a,b){var s=0,r=P.U(t.z),q,p
 var $async$W7=P.P(function(c,d){if(c===1)return P.R(d,r)
 while(true)switch(s){case 0:q=t.t
@@ -12916,7 +12916,7 @@ E.eO(!0,new L.W1(E.ez(s,M.x(s,B.qT(new L.W2(b),J.aI(b),s,!0),s,s,s,s,900,s,s,s,6
 awo:function(a){var s=null
 E.eO(!0,new L.VQ(E.ez(s,T.at(H.a([L.r("This field requires a numeric response",s,s,s,s,s,s,s,s,s,s,s)],t.t),C.ad,C.m,C.af),6,s,s)),a,s,!0,t.H)},
 awv:function(a){var s=null
-E.eO(!0,new L.W5(E.ez(s,T.at(H.a([L.r("Built and uploaded on: Sun Jun 28 00:17:11 CDT 2020",s,s,s,s,s,s,s,s,s,s,s),L.r("Flutter framework: "+H.b(C.uh.h(0,"frameworkVersion")),s,s,s,s,s,s,s,s,s,s,s),L.r("Dart version: "+H.b(C.uh.h(0,"dartSdkVersion")),s,s,s,s,s,s,s,s,s,s,s)],t.t),C.ad,C.m,C.af),6,s,s)),a,s,!0,t.H)},
+E.eO(!0,new L.W5(E.ez(s,T.at(H.a([L.r("Built and uploaded on: Sun Jun 28 01:01:59 CDT 2020",s,s,s,s,s,s,s,s,s,s,s),L.r("Flutter framework: "+H.b(C.uh.h(0,"frameworkVersion")),s,s,s,s,s,s,s,s,s,s,s),L.r("Dart version: "+H.b(C.uh.h(0,"dartSdkVersion")),s,s,s,s,s,s,s,s,s,s,s)],t.t),C.ad,C.m,C.af),6,s,s)),a,s,!0,t.H)},
 nq:function(a){var s=null
 E.eO(!0,new L.VV(E.ez(s,T.at(H.a([L.r("This program type is not yet available",s,s,s,s,s,s,s,s,s,s,s)],t.t),C.ad,C.m,C.af),6,s,s)),a,s,!0,t.H)},
 awq:function(a){var s=null
@@ -34806,7 +34806,7 @@ p=J.h(o.a.d.f,l).Q?B.em(n,L.bl(C.iN,n,n),new U.a7X(o),C.at,n):n
 return G.Ei(Z.zC(!0,n,!1,n,o.d,n,n,2,L.iU(n,C.ay,new V.aa(15,11,15,11),n,n,n,C.ay,!0,C.ay,C.ay,n,n,n,n,n,C.bv,n,C.ay,n,!0,n,n,n,n,n,"Enter comments ",n,n,!1,n,n,n,n,n,n,n,n,n,n,p,n,n,n),!0,!0,n,!1,n,n,n,q,n,!0,n,n,!1,"\u2022",new U.a7Y(o,a,l,k),n,n,n,!1,C.dm,n,n,n,n,n,r,C.al,n,C.ik,n,n,n),C.u,C.an,s,m,n)}}
 U.a7Y.prototype={
 $1:function(a){var s,r,q,p=this,o=p.b,n=t.A
-if(Y.N(o,!1,n).b.y.Q!=="Scheduled")L.h2(o,u.C)
+if(Y.N(o,!1,n).b.y.Q!=="Scheduled")L.h2(o,!0,u.C)
 else{s=p.a.a
 if(s.e){if(s.f)try{J.h(s.d.f,p.c).f=P.fP(a,null)}catch(r){H.a_(r)
 L.awo(o)}else J.h(s.d.f,p.c).f=a
@@ -34843,7 +34843,7 @@ while(true)switch(s){case 0:k=q.b
 j=t.A
 s=Y.N(k,!1,j).b.y.Q!=="Scheduled"?2:4
 break
-case 2:L.h2(k,u.C)
+case 2:L.h2(k,!0,u.C)
 s=3
 break
 case 4:p=Date.now()
@@ -34949,7 +34949,7 @@ r=t.t
 return T.at(H.a([T.b4(H.a([new T.aW(1,C.x,m,n),s,D.bM(n,new T.ap(C.bS,L.bl(C.bU,J.h(o.a.d.f,l).y==null?$.iD():$.hG(),n),n),C.v,!1,n,n,n,n,n,n,n,n,n,n,n,new A.a8Y(o,l),n,n,n,n,n,n)],r),C.k,C.m,C.j,n),U.pZ(k,l,new N.ee(),!1,!1)],r),C.k,C.m,C.j)}}
 A.a8X.prototype={
 $1:function(a){var s,r=this.b
-if(Y.N(r,!1,t.A).b.y.Q!=="Scheduled")L.h2(r,u.C)
+if(Y.N(r,!1,t.A).b.y.Q!=="Scheduled")L.h2(r,!0,u.C)
 else{s=this.a
 s.E(new A.a8V(s,this.c,a,r))}},
 $S:6}
@@ -35041,7 +35041,7 @@ q=t.t
 return T.at(H.a([T.b4(H.a([new T.aW(1,C.x,m,o),s,r,D.bM(o,new T.ap(C.bS,L.bl(C.bU,J.h(p.a.d.f,l).y==null?$.iD():$.hG(),o),o),C.v,!1,o,o,o,o,o,o,o,o,o,o,o,new U.aaM(p,l),o,o,o,o,o,o)],q),C.k,C.m,C.j,o),U.pZ(k,l,new N.ee(),!1,!1)],q),C.k,C.m,C.j)}}
 U.aaK.prototype={
 $0:function(){var s,r,q,p,o=this.b,n=t.A
-if(Y.N(o,!1,n).b.y.Q!=="Scheduled")L.h2(o,u.C)
+if(Y.N(o,!1,n).b.y.Q!=="Scheduled")L.h2(o,!0,u.C)
 else{s=this.a
 r=this.c
 q=A.uA(H.Q(J.h(s.a.d.f,r).f),"No Issues")
@@ -35056,7 +35056,7 @@ $0:function(){},
 $S:0}
 U.aaL.prototype={
 $0:function(){var s,r,q,p,o=this.b,n=t.A
-if(Y.N(o,!1,n).b.y.Q!=="Scheduled")L.h2(o,u.C)
+if(Y.N(o,!1,n).b.y.Q!=="Scheduled")L.h2(o,!0,u.C)
 else{s=this.a
 r=this.c
 q=A.uA(H.Q(J.h(s.a.d.f,r).f),"Issues")
@@ -35097,7 +35097,7 @@ p=t.t
 return T.at(H.a([T.b4(H.a([new T.aW(1,C.x,m,n),s,r,q,D.bM(n,new T.ap(C.bS,L.bl(C.bU,J.h(o.a.d.f,l).y==null?$.iD():$.hG(),n),n),C.v,!1,n,n,n,n,n,n,n,n,n,n,n,new E.ahw(o,l),n,n,n,n,n,n)],p),C.k,C.m,C.j,n),U.pZ(k,l,new N.ee(),!1,!1)],p),C.k,C.m,C.j)}}
 E.aht.prototype={
 $0:function(){var s,r,q,p,o=this.b,n=t.A
-if(Y.N(o,!1,n).b.y.Q!=="Scheduled")L.h2(o,u.C)
+if(Y.N(o,!1,n).b.y.Q!=="Scheduled")L.h2(o,!0,u.C)
 else{s=this.a
 r=this.c
 q=A.uA(H.Q(J.h(s.a.d.f,r).f),"Yes")
@@ -35112,7 +35112,7 @@ $0:function(){},
 $S:0}
 E.ahu.prototype={
 $0:function(){var s,r,q,p,o=this.b,n=t.A
-if(Y.N(o,!1,n).b.y.Q!=="Scheduled")L.h2(o,u.C)
+if(Y.N(o,!1,n).b.y.Q!=="Scheduled")L.h2(o,!0,u.C)
 else{s=this.a
 r=this.c
 q=A.uA(H.Q(J.h(s.a.d.f,r).f),"No")
@@ -35127,7 +35127,7 @@ $0:function(){},
 $S:0}
 E.ahv.prototype={
 $0:function(){var s,r,q,p,o=this.b,n=t.A
-if(Y.N(o,!1,n).b.y.Q!=="Scheduled")L.h2(o,u.C)
+if(Y.N(o,!1,n).b.y.Q!=="Scheduled")L.h2(o,!0,u.C)
 else{s=this.a
 r=this.c
 q=A.uA(H.Q(J.h(s.a.d.f,r).f),"NA")
@@ -35166,7 +35166,7 @@ q=t.t
 return T.at(H.a([T.b4(H.a([new T.aW(1,C.x,n,o),s,r,D.bM(o,new T.ap(C.bS,L.bl(C.bU,J.h(p.a.d.f,m).y==null?$.iD():$.hG(),o),o),C.v,!1,o,o,o,o,o,o,o,o,o,o,o,new B.ahC(p,m),o,o,o,o,o,o)],q),C.k,C.m,C.j,o),U.pZ(l,m,new N.ee(),!1,!1)],q),C.k,C.m,C.j)}}
 B.ahA.prototype={
 $0:function(){var s,r,q,p,o=this.b,n=t.A
-if(Y.N(o,!1,n).b.y.Q!=="Scheduled")L.h2(o,u.C)
+if(Y.N(o,!1,n).b.y.Q!=="Scheduled")L.h2(o,!0,u.C)
 else{s=this.a
 r=this.c
 q=A.uA(H.Q(J.h(s.a.d.f,r).f),"Yes")
@@ -35181,7 +35181,7 @@ $0:function(){},
 $S:0}
 B.ahB.prototype={
 $0:function(){var s,r,q,p,o=this.b,n=t.A
-if(Y.N(o,!1,n).b.y.Q!=="Scheduled")L.h2(o,u.C)
+if(Y.N(o,!1,n).b.y.Q!=="Scheduled")L.h2(o,!0,u.C)
 else{s=this.a
 r=this.c
 q=A.uA(H.Q(J.h(s.a.d.f,r).f),"No")
@@ -35280,7 +35280,7 @@ $0:function(){},
 $S:0}
 S.Kf.prototype={
 w:function(a){var s=null,r=J.aI(Y.N(a,!0,t.A).cx)===0?F.b7(a,!1).a.b*0.65:F.b7(a,!1).a.b/3
-return new T.aW(1,C.x,B.a_I(H.a([M.x(s,B.qT(new S.a2Q(this),J.aI(this.c.e)-4,s,!0),s,s,s,s,r,s,s,s,s),M.x(s,new N.qm(s),s,s,s,s,F.b7(a,!1).a.b/3,s,s,s,s),M.x(s,s,s,s,s,s,300,s,s,s,s)],t.t),s,s,s,!1,C.n,!1),s)}}
+return new T.aW(1,C.x,B.a_I(H.a([M.x(s,B.qT(new S.a2Q(this),J.aI(this.c.e)-4,s,!0),s,s,s,s,r,s,s,s,s),M.x(s,s,s,s,s,s,40,s,s,s,s),M.x(s,new N.qm(s),s,s,s,s,F.b7(a,!1).a.b/3,s,s,s,s),M.x(s,s,s,s,s,s,300,s,s,s,s)],t.t),s,s,s,!1,C.n,!1),s)}}
 S.a2Q.prototype={
 $2:function(a,b){var s,r,q,p,o=null,n=$.l2()
 n=S.bH(F.hL($.l1(),3),o,o,n,o,o,C.A)
@@ -36591,18 +36591,18 @@ var $async$$0=P.P(function(a,b){if(a===1)return P.R(b,r)
 while(true)switch(s){case 0:l=q.a
 l.E(new Q.agf(l))
 p=q.b
-L.h2(p,"Syncing Site Data")
+L.h2(p,!1,"Syncing Site Data")
 o=Y.N(p,!1,t.SF).f
 n=t.w5
 s=2
 return P.a0(Y.N(p,!1,n).qz(),$async$$0)
 case 2:m=Y.N(p,!1,n).c
 K.bA(p,!1).cq()
-L.h2(p,"Syncing Scheduling data: upload and download")
+L.h2(p,!1,"Syncing Scheduling data: upload and download")
 s=3
 return P.a0(Y.N(p,!1,t.Y).fa(p,m,o),$async$$0)
 case 3:K.bA(p,!1).cq()
-L.h2(p,"Syncing Audit data: upload and download")
+L.h2(p,!1,"Syncing Audit data: upload and download")
 s=4
 return P.a0(Y.N(p,!1,t.A).fa(p,m,o),$async$$0)
 case 4:K.bA(p,!1).cq()
