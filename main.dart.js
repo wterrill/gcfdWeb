@@ -12912,7 +12912,7 @@ E.eO(!0,new L.W1(E.ez(s,M.x(s,B.qS(new L.W2(b),J.aI(b),s,!0),s,s,s,s,900,s,s,s,6
 awo:function(a){var s=null
 E.eO(!0,new L.VP(E.ez(s,T.au(H.a([L.r("This field requires a numeric response",s,s,s,s,s,s,s,s,s,s,s)],t.t),C.ad,C.m,C.af),6,s,s)),a,s,!0,t.H)},
 awv:function(a){var s=null
-E.eO(!0,new L.W5(E.ez(s,T.au(H.a([L.r("Built and uploaded on: Mon Jun 29 00:14:44 CDT 2020",s,s,s,s,s,s,s,s,s,s,s),L.r("Flutter framework: "+H.b(C.uh.h(0,"frameworkVersion")),s,s,s,s,s,s,s,s,s,s,s),L.r("Dart version: "+H.b(C.uh.h(0,"dartSdkVersion")),s,s,s,s,s,s,s,s,s,s,s)],t.t),C.ad,C.m,C.af),6,s,s)),a,s,!0,t.H)},
+E.eO(!0,new L.W5(E.ez(s,T.au(H.a([L.r("Built and uploaded on: Mon Jun 29 01:30:12 CDT 2020",s,s,s,s,s,s,s,s,s,s,s),L.r("Flutter framework: "+H.b(C.uh.h(0,"frameworkVersion")),s,s,s,s,s,s,s,s,s,s,s),L.r("Dart version: "+H.b(C.uh.h(0,"dartSdkVersion")),s,s,s,s,s,s,s,s,s,s,s)],t.t),C.ad,C.m,C.af),6,s,s)),a,s,!0,t.H)},
 VU:function(a){var s=null
 E.eO(!0,new L.VV(E.ez(s,T.au(H.a([L.r("This program type is not yet available",s,s,s,s,s,s,s,s,s,s,s)],t.t),C.ad,C.m,C.af),6,s,s)),a,s,!0,t.H)},
 awq:function(a){var s=null
@@ -37655,20 +37655,20 @@ l=A.Ta(a,$.asC)
 a2=H.a([],m)
 a3=o.a(J.h(s,"PantryCitations"))
 a4=H.a([],m)
-for(j=J.aB(a3),i=J.ap(j.gaz(a3));i.p();){h=i.gv(i)
+if(a3!=null)for(j=J.aB(a3),i=J.ap(j.gaz(a3));i.p();){h=i.gv(i)
 if(j.h(a3,h)==null)j.t(a3,h)
 else{h.toString
 if(H.l0(h,b0,0))a4.push(H.asK(h,b0,"",0))}}a5=H.a([],n)
-for(i=J.ap(l.e);i.p();){h=i.gv(i)
+for(j=J.ap(l.e),i=J.V(a3);j.p();){h=j.gv(j)
 a0=C.c.K(b1,h.e)+b1
 a1=$.aA
 if(a1==null)H.az(a0)
 else a1.$1(a0)
 for(h=J.ap(h.f);h.p();){r=h.gv(h)
 q=H.P(J.h(r.cy,"databaseVar"))
-if(C.b.G(a4,q)){r.cx=H.dd(j.h(a3,J.bt(q,b0)))
+if(C.b.G(a4,q)){r.cx=H.dd(i.h(a3,J.bt(q,b0)))
 r.cx=!r.cx
-r.dy=H.P(j.h(a3,J.bt(q,"ActionItem")))
+r.dy=H.P(i.h(a3,J.bt(q,"ActionItem")))
 a5.push(r)}if(q!=null)if(J.h(s,q)==null){a0="Missing: "+H.b(q)
 a1=$.aA
 if(a1==null)H.az(a0)
