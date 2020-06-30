@@ -12930,7 +12930,7 @@ E.eO(!0,new L.W6(E.ez(s,M.x(s,B.qU(new L.W7(b),J.aI(b),s,!0),s,s,s,s,900,s,s,s,6
 awB:function(a){var s=null
 E.eO(!0,new L.VU(E.ez(s,T.au(H.a([L.q("This field requires a numeric response",s,s,s,s,s,s,s,s,s,s,s)],t.t),C.ad,C.m,C.af),6,s,s)),a,s,!0,t.H)},
 awI:function(a){var s=null
-E.eO(!0,new L.Wa(E.ez(s,T.au(H.a([L.q("Built and uploaded on: Mon Jun 29 22:50:27 CDT 2020",s,s,s,s,s,s,s,s,s,s,s),L.q("Flutter framework: "+H.b(C.uj.h(0,"frameworkVersion")),s,s,s,s,s,s,s,s,s,s,s),L.q("Dart version: "+H.b(C.uj.h(0,"dartSdkVersion")),s,s,s,s,s,s,s,s,s,s,s)],t.t),C.ad,C.m,C.af),6,s,s)),a,s,!0,t.H)},
+E.eO(!0,new L.Wa(E.ez(s,T.au(H.a([L.q("Built and uploaded on: Mon Jun 29 23:08:35 CDT 2020",s,s,s,s,s,s,s,s,s,s,s),L.q("Flutter framework: "+H.b(C.uj.h(0,"frameworkVersion")),s,s,s,s,s,s,s,s,s,s,s),L.q("Dart version: "+H.b(C.uj.h(0,"dartSdkVersion")),s,s,s,s,s,s,s,s,s,s,s)],t.t),C.ad,C.m,C.af),6,s,s)),a,s,!0,t.H)},
 VZ:function(a){var s=null
 E.eO(!0,new L.W_(E.ez(s,T.au(H.a([L.q("This program type is not yet available",s,s,s,s,s,s,s,s,s,s,s)],t.t),C.ad,C.m,C.af),6,s,s)),a,s,!0,t.H)},
 awD:function(a){var s=null
@@ -36092,7 +36092,7 @@ m=i?"View Audit":"Begin Audit"
 r.push(M.x(k,new T.b4(C.u,k,k,Q.qR(k,k,k,k,k,new M.iO(q,C.dk,N.cg(M.d2(m,k,k,12,k,$.iF(),k,!0),k,C.aH,new T.Tk(l,a,i),k,new X.ci(new K.b2(p,p,p,p),C.p),k),k),k),k),C.o,k,k,k,k,k,k,k,k))
 if(!i){q=new P.aN(50,50)
 p=new P.aN(50,50)
-r.push(M.x(k,new T.b4(C.u,k,k,new T.am(C.rT,Q.qR(k,k,k,k,k,new M.iO(S.bE(F.hL($.Su(),2),new K.b2(q,q,q,q),k,C.ac,k,k,C.z),C.dk,N.cg(M.d2("Edit Audit",k,k,12,k,$.ajZ(),k,!0),k,C.aH,new T.Tl(l,a),k,new X.ci(new K.b2(p,p,p,p),C.p),k),k),k),k),k),C.o,k,k,k,k,k,k,k,k))}if(j.Q==="Follow Up"){j=new P.aN(50,50)
+r.push(M.x(k,new T.b4(C.u,k,k,new T.am(C.rT,Q.qR(k,k,k,k,k,new M.iO(S.bE(F.hL($.Su(),2),new K.b2(q,q,q,q),k,C.ac,k,k,C.z),C.dk,N.cg(M.d2("Edit Audit",k,k,12,k,$.ajZ(),k,!0),k,C.aH,new T.Tl(l,a),k,new X.ci(new K.b2(p,p,p,p),C.p),k),k),k),k),k),C.o,k,k,k,k,k,k,k,k))}if(j.Q==="Follow Up Req."){j=new P.aN(50,50)
 q=new P.aN(50,50)
 r.push(M.x(k,new T.b4(C.u,k,k,new T.am(C.rT,Q.qR(k,k,k,k,k,new M.iO(S.bE(F.hL($.Su(),2),new K.b2(j,j,j,j),k,C.ac,k,k,C.z),C.dk,N.cg(M.d2("Schedule Followup Audit",k,k,12,k,$.ajZ(),k,!0),k,C.aH,new T.Tm(l,a),k,new X.ci(new K.b2(q,q,q,q),C.p),k),k),k),k),k),C.o,k,k,k,k,k,k,k,k))}return M.f0(C.F,!0,k,M.x(k,T.au(H.a([new T.aW(1,C.x,h,k),new T.aW(3,C.x,o,k),new T.aW(3,C.x,s,k),new T.aW(3,C.x,T.au(r,C.k,C.m,C.i),k)],n),C.k,C.m,C.i),k,k,k,k,500,k,k,k,350),C.C,k,0,k,C.o,k,k,C.aP)}}
 T.Tk.prototype={
@@ -36567,7 +36567,7 @@ return P.a0(L.Wc(l,new E.aci(k)),$async$$0)
 case 7:s=5
 break
 case 6:k.a=!0
-case 5:if(q.e.$0()&&k.a){if(m.cx)Y.K(l,!1,t.Y).oO(m.a.c)
+case 5:if(q.e.$0()&&k.a){if(m.cx&&!m.a.d)Y.K(l,!1,t.Y).oO(m.a.c)
 k=m.r
 k.toString
 p=m.x
@@ -37747,7 +37747,7 @@ case 0:b="Scheduled"
 break
 case 1:b="Submitted"
 break
-case 2:b="Follow Up"
+case 2:b="Follow Up Req."
 break
 case 2:b="Reviewed"
 break
