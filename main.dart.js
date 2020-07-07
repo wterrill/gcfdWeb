@@ -13198,7 +13198,7 @@ E.eS(!0,new L.WN(E.eC(s,M.x(s,B.o7(new L.WO(b),J.aG(b),s,!0),s,s,s,s,900,s,s,s,6
 axM:function(a){var s=null
 E.eS(!0,new L.WB(E.eC(s,T.au(H.a([L.r("This field requires a numeric response",s,s,s,s,s,s,s,s,s,s,s)],t.t),C.ad,C.l,C.af),6,s,s)),a,s,!0,t.H)},
 axT:function(a){var s=null
-E.eS(!0,new L.WR(E.eC(s,T.au(H.a([L.r("Built and uploaded on: Tue Jul  7 00:22:09 CDT 2020",s,s,s,s,s,s,s,s,s,s,s),L.r("Flutter framework: "+H.b(C.u8.h(0,"frameworkVersion")),s,s,s,s,s,s,s,s,s,s,s),L.r("Dart version: "+H.b(C.u8.h(0,"dartSdkVersion")),s,s,s,s,s,s,s,s,s,s,s)],t.t),C.ad,C.l,C.af),6,s,s)),a,s,!0,t.H)},
+E.eS(!0,new L.WR(E.eC(s,T.au(H.a([L.r("Built and uploaded on: Tue Jul  7 16:07:18 CDT 2020",s,s,s,s,s,s,s,s,s,s,s),L.r("Flutter framework: "+H.b(C.u8.h(0,"frameworkVersion")),s,s,s,s,s,s,s,s,s,s,s),L.r("Dart version: "+H.b(C.u8.h(0,"dartSdkVersion")),s,s,s,s,s,s,s,s,s,s,s)],t.t),C.ad,C.l,C.af),6,s,s)),a,s,!0,t.H)},
 alD:function(a){var s=null
 E.eS(!0,new L.WG(E.eC(s,T.au(H.a([L.r("This program type is not yet available",s,s,s,s,s,s,s,s,s,s,s)],t.t),C.ad,C.l,C.af),6,s,s)),a,s,!0,t.H)},
 axO:function(a){var s=null
@@ -35307,9 +35307,8 @@ f=H.F(J.k(p,"DeviceId"))
 e=null
 if(J.d(j,"Follow Up")){if(J.d(l,"Pantry Audit"))e="PantryFollowUp"
 if(J.d(l,"Congregate Audit"))e="CongregateFollowUp"}d=a5.a(J.k(p,e))
-J.alg(d,new X.a3O())
-J.alg(d,new X.a3P())
-if(i!=null){c=E.Fx(o,n,j,k,d,f,null,m,l,null,g,i,h)
+if(d!=null){J.alg(d,new X.a3O())
+J.alg(d,new X.a3P())}if(i!=null){c=E.Fx(o,n,j,k,d,f,null,m,l,null,g,i,h)
 J.lj(q,c)}else{a0=H.b(o)+" did not have a startTime associated with it"
 a1=$.az
 if(a1==null)H.ax(a0)
