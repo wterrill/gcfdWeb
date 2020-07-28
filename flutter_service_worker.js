@@ -5,7 +5,7 @@ const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "index.html": "63aaaa5fc1bfefb67446070a68e81d2b",
 "/": "63aaaa5fc1bfefb67446070a68e81d2b",
-"main.dart.js": "ecd26275f9c12de3b7a315269bb5c467",
+"main.dart.js": "248465ac47745282e26d119f3c5b3394",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
@@ -15,7 +15,6 @@ const RESOURCES = {
 "assets/FontManifest.json": "01700ba55b08a6141f33e168c4a6c22f",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
-"assets/fonts/MaterialIcons-Regular.otf": "a68d2a28c526b3b070aefca4bac93d25",
 "assets/assets/images/GCFD_Logo.png": "c6d8aaab6dc03cd052b4de51848bae80",
 "assets/assets/images/gcfdIcon.png": "34264cc903e1e50d051e3bf1f2c92292",
 "assets/assets/images/beer.png": "34264cc903e1e50d051e3bf1f2c92292",
