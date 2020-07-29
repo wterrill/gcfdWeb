@@ -13931,7 +13931,7 @@ E.eD(!0,new L.Ya(E.eo(s,M.t(s,B.mg(new L.Yb(b),J.az(b),s,!0),s,s,s,s,900,s,s,s,6
 aBw:function(a){var s=null
 E.eD(!0,new L.XV(E.eo(s,T.am(H.a([L.o("This field requires a numeric response",s,s,s,s,s,s,s,s,s,s,s)],t.t),C.ae,C.l,C.ac),C.aF,6,s,s)),a,s,!0,t.H)},
 aBE:function(a){var s=null
-E.eD(!0,new L.Ye(E.eo(s,T.am(H.a([L.o("Built and uploaded on: Tue Jul 28 22:24:34 CDT 2020",s,s,s,s,s,s,s,s,s,s,s),L.o("Flutter framework: "+H.b(C.uZ.h(0,"frameworkVersion")),s,s,s,s,s,s,s,s,s,s,s),L.o("Dart version: "+H.b(C.uZ.h(0,"dartSdkVersion")),s,s,s,s,s,s,s,s,s,s,s)],t.t),C.ae,C.l,C.ac),C.aF,6,s,s)),a,s,!0,t.H)},
+E.eD(!0,new L.Ye(E.eo(s,T.am(H.a([L.o("Built and uploaded on: Tue Jul 28 22:46:00 CDT 2020",s,s,s,s,s,s,s,s,s,s,s),L.o("Flutter framework: "+H.b(C.uZ.h(0,"frameworkVersion")),s,s,s,s,s,s,s,s,s,s,s),L.o("Dart version: "+H.b(C.uZ.h(0,"dartSdkVersion")),s,s,s,s,s,s,s,s,s,s,s)],t.t),C.ae,C.l,C.ac),C.aF,6,s,s)),a,s,!0,t.H)},
 asv:function(a){var s=null
 E.eD(!0,new L.XY(E.eo(s,T.am(H.a([L.o("This audit cannot be scheduled as entered.  Please verify that all fields are filled.",s,s,s,s,s,s,s,s,s,s,s)],t.t),C.ae,C.l,C.ac),C.aF,6,s,s)),a,s,!0,t.H)},
 aBA:function(a){var s=null
@@ -37192,8 +37192,10 @@ l=Y.w(a1,!0,s).z
 k=Y.w(a1,!0,s).Q
 j=Y.w(a1,!0,s).y
 i=l!=null
-if(!(i&&J.az(r.z)===0))h=i&&k!=null&&j!=null&&Y.w(a1,!1,s).dx
-else h=!0
+if(!(i&&J.az(r.z)===0))i=i&&k!=null&&j!=null&&Y.w(a1,!1,s).dx
+else i=!0
+if(i){i=r.y.Q
+h=!(i==="Completed"||i==="Site Visit Req.")}else h=!1
 i=C.fy.h(0,800)
 i=X.AP(C.uU.h(0,600),C.U,"Georgia",i,a,R.N4(a,a,a,a,a,a,a,a,a,a,a,a,a))
 g=$.are()
