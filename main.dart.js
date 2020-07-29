@@ -13934,7 +13934,7 @@ E.eF(!0,new L.Yb(E.ep(s,M.t(s,B.mh(new L.Yc(b),J.ay(b),s,!0),s,s,s,s,900,s,s,s,6
 aBw:function(a){var s=null
 E.eF(!0,new L.XW(E.ep(s,T.al(H.a([L.o("This field requires a numeric response",s,s,s,s,s,s,s,s,s,s,s)],t.t),C.af,C.l,C.ac),C.aF,6,s,s)),a,s,!0,t.H)},
 aBE:function(a){var s=null
-E.eF(!0,new L.Yf(E.ep(s,T.al(H.a([L.o("Built and uploaded on: Wed Jul 29 15:21:46 CDT 2020",s,s,s,s,s,s,s,s,s,s,s),L.o("Flutter framework: "+H.b(C.uY.h(0,"frameworkVersion")),s,s,s,s,s,s,s,s,s,s,s),L.o("Dart version: "+H.b(C.uY.h(0,"dartSdkVersion")),s,s,s,s,s,s,s,s,s,s,s)],t.t),C.af,C.l,C.ac),C.aF,6,s,s)),a,s,!0,t.H)},
+E.eF(!0,new L.Yf(E.ep(s,T.al(H.a([L.o("Built and uploaded on: Wed Jul 29 15:27:49 CDT 2020",s,s,s,s,s,s,s,s,s,s,s),L.o("Flutter framework: "+H.b(C.uY.h(0,"frameworkVersion")),s,s,s,s,s,s,s,s,s,s,s),L.o("Dart version: "+H.b(C.uY.h(0,"dartSdkVersion")),s,s,s,s,s,s,s,s,s,s,s)],t.t),C.af,C.l,C.ac),C.aF,6,s,s)),a,s,!0,t.H)},
 asv:function(a){var s=null
 E.eF(!0,new L.XZ(E.ep(s,T.al(H.a([L.o("This audit cannot be scheduled as entered.  Please verify that all fields are filled.",s,s,s,s,s,s,s,s,s,s,s)],t.t),C.af,C.l,C.ac),C.aF,6,s,s)),a,s,!0,t.H)},
 aBA:function(a){var s=null
@@ -39979,10 +39979,13 @@ l.A(new Q.akA(l))
 p=q.b
 L.cA(p,!1,"Syncing Site Data")
 o=Y.w(p,!1,t.D).f
+P.G("before siteSync")
 n=t.w5
 s=2
 return P.a0(Y.w(p,!1,n).o_(),$async$$0)
-case 2:m=Y.w(p,!1,n).c
+case 2:P.G("After siteSync")
+m=Y.w(p,!1,n).c
+P.G("after siteList load")
 K.be(p,!1).bK()
 L.cA(p,!1,u.h5)
 s=3
@@ -41570,19 +41573,22 @@ $S:58}
 M.Qu.prototype={}
 R.Aa.prototype={
 pG:function(){P.qS(H.a([$.j5().fs("siteListBox",t.XS)],t.yO),t.z).bW(new R.a6w(this),t.P)},
-o_:function(){var s=0,r=P.V(t.z),q=this,p,o,n
+o_:function(){var s=0,r=P.V(t.z),q=this,p,o,n,m
 var $async$o_=P.R(function(a,b){if(a===1)return P.S(b,r)
 while(true)switch(s){case 0:P.G("sync")
-n=t.fe
+n=X
+m=t.fe
 s=2
 return P.a0(X.apI().NP(0,C.tu,new R.a6x()),$async$o_)
-case 2:p=n.a(b)
-q.c=new X.mM(p,P.A(t.G,t.e))
-P.G("Sitelist downloaded length =  "+H.b(J.ay(p)))
+case 2:q.c=new n.mM(m.a(b),P.A(t.G,t.e))
+P.G("beflore siteList downloaded length")
+P.G("Sitelist downloaded length =  "+H.b(J.ay(q.c.d)))
+P.G("after siteList downloaded length before put")
 p=q.d
 o=q.c
 p.toString
 p.eM(P.e(["siteList",o],t.z,p.$ti.i("cL.E*")))
+P.G("after siteList put")
 q.aq()
 return P.T(null,r)}})
 return P.U($async$o_,r)},
