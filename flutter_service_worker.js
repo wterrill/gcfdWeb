@@ -5,16 +5,20 @@ const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "index.html": "63aaaa5fc1bfefb67446070a68e81d2b",
 "/": "63aaaa5fc1bfefb67446070a68e81d2b",
-"main.dart.js": "897c5394095e6e56e42da7d99458c680",
+"main.dart.js": "2dc02623e38812a9d0789f2bca274d62",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "f7446118402704050fa5925804992cbe",
-"assets/AssetManifest.json": "d125124b51370bc565fa9b55d36a77a3",
-"assets/NOTICES": "7ed0dc8d658454df340af309f4a29758",
-"assets/FontManifest.json": "01700ba55b08a6141f33e168c4a6c22f",
+"assets/AssetManifest.json": "3d7711ef371c05aceb58cffea2586b65",
+"assets/NOTICES": "646fe49643edf76363f9c2b0f725f6fa",
+"assets/FontManifest.json": "f0eeca7a55b8e00a55ab2ca6a7431d38",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
-"assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "2aa350bd2aeab88b601a593f793734c0",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "2bca5ec802e40d3f4b60343e346cedde",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "5a37ae808cf9f652198acde612b5328d",
+"assets/fonts/RobotoSlab-VariableFont_wght.ttf": "0b2aeb1c9f580b22533476443b47f0ad",
+"assets/fonts/MaterialIcons-Regular.otf": "a68d2a28c526b3b070aefca4bac93d25",
 "assets/assets/images/GCFD_Logo.png": "c6d8aaab6dc03cd052b4de51848bae80",
 "assets/assets/images/gcfdIcon.png": "34264cc903e1e50d051e3bf1f2c92292",
 "assets/assets/images/beer.png": "34264cc903e1e50d051e3bf1f2c92292",
@@ -44,8 +48,8 @@ const CORE = [
 self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
-      // Provide a no-cache param to ensure the latest version is downloaded.
-      return cache.addAll(CORE.map((value) => new Request(value, {'cache': 'no-cache'})));
+      // Provide a 'reload' param to ensure the latest version is downloaded.
+      return cache.addAll(CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
@@ -128,7 +132,7 @@ self.addEventListener("fetch", (event) => {
         // Either respond with the cached resource, or perform a fetch and
         // lazily populate the cache. Ensure the resources are not cached
         // by the browser for longer than the service worker expects.
-        var modifiedRequest = new Request(event.request, {'cache': 'no-cache'});
+        var modifiedRequest = new Request(event.request, {'cache': 'reload'});
         return response || fetch(modifiedRequest).then((response) => {
           cache.put(event.request, response.clone());
           return response;
