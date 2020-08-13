@@ -14307,7 +14307,7 @@ E.dG(!0,new L.Z0(E.dC(s,s,T.al(H.a([L.o("This field requires a numeric response"
 aFx:function(a,b){var s=null,r=K.cN(new P.aF(50,50))
 E.dG(!0,new L.YZ(E.dC(s,s,T.al(H.a([L.o("There was an error communicating with the server. Error = "+H.b(b),s,s,s,s,s,s,s,s,s,s,s)],t.t),C.a6,C.k,C.a3),C.aq,6,new X.b2(r,C.o),s)),a,s,!0,t.H)},
 avY:function(a){var s=null,r=K.cN(new P.aF(50,50))
-E.dG(!0,new L.Zp(E.dC(s,s,T.al(H.a([L.o("Built and uploaded on: Wed Aug 12 13:30:00 CDT 2020",s,s,s,s,s,s,s,s,s,s,s),L.o("Flutter framework: "+H.b(C.vg.h(0,"frameworkVersion")),s,s,s,s,s,s,s,s,s,s,s),L.o("Dart version: "+H.b(C.vg.h(0,"dartSdkVersion")),s,s,s,s,s,s,s,s,s,s,s)],t.t),C.a6,C.k,C.a3),C.aq,6,new X.b2(r,C.o),s)),a,s,!0,t.H)},
+E.dG(!0,new L.Zp(E.dC(s,s,T.al(H.a([L.o("Built and uploaded on: Thu Aug 13 11:02:57 CDT 2020",s,s,s,s,s,s,s,s,s,s,s),L.o("Flutter framework: "+H.b(C.vg.h(0,"frameworkVersion")),s,s,s,s,s,s,s,s,s,s,s),L.o("Dart version: "+H.b(C.vg.h(0,"dartSdkVersion")),s,s,s,s,s,s,s,s,s,s,s)],t.t),C.a6,C.k,C.a3),C.aq,6,new X.b2(r,C.o),s)),a,s,!0,t.H)},
 avU:function(a){var s=null,r=K.cN(new P.aF(50,50))
 E.dG(!0,new L.Z4(E.dC(s,s,T.al(H.a([L.o("This audit cannot be scheduled as entered.  Please verify that all fields are filled.",s,s,s,s,s,s,s,s,s,s,s)],t.t),C.a6,C.k,C.a3),C.aq,6,new X.b2(r,C.o),s)),a,s,!0,t.H)},
 aFE:function(a){var s=null,r=K.cN(new P.aF(50,50))
@@ -40174,7 +40174,8 @@ n=K.b_(25)
 m=i.cx
 l=h?"View Audit":"Begin Audit"
 p.push(N.bC(new T.a1(C.f4,M.d8(l,j,j,12,j,$.aw(),j,!0),j),o,j,j,new T.Wc(k,b,h),j,new X.b2(n,new Y.aT(m,3,C.v)),j))
-if(i.Q!=="Completed"){o=$.dB()
+o=i.Q
+if(!(o==="Completed"||o==="Site Visit Req.")){o=$.dB()
 n=K.b_(25)
 m=i.cx
 p.push(N.bC(new T.a1(C.f4,M.d8("Edit Audit",j,j,12,j,$.aw(),j,!0),j),o,j,j,new T.Wd(k,b,h),j,new X.b2(n,new Y.aT(m,3,C.v)),j))}if(i.Q==="Site Visit Req."){o=$.dB()
