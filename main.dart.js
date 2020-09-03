@@ -9070,21 +9070,15 @@ _.b=b
 _.c=c
 _.d=d},
 afv:function afv(){},
-afx:function afx(a,b,c){this.a=a
-this.b=b
-this.c=c},
-afu:function afu(){},
-afy:function afy(a,b,c,d){var _=this
+afx:function afx(a,b,c,d){var _=this
 _.a=a
 _.b=b
 _.c=c
 _.d=d},
-aft:function aft(a,b,c,d,e){var _=this
-_.a=a
-_.b=b
-_.c=c
-_.d=d
-_.e=e},
+afu:function afu(){},
+afy:function afy(a){this.a=a},
+aft:function aft(a,b){this.a=a
+this.b=b},
 AX:function AX(a,b,c){this.c=a
 this.d=b
 this.a=c},
@@ -14159,7 +14153,7 @@ E.dM(!0,new L.Z7(E.dz(s,s,T.al(H.a([L.l("This field requires a numeric response"
 aGK:function(a,b){var s=null,r=K.cK(new P.aG(50,50))
 E.dM(!0,new L.Z6(E.dz(s,s,T.al(H.a([L.l("There was an error communicating with the server. Error = "+H.b(b),s,s,s,s,s,s,s,s,s,s,s)],t.t),C.a4,C.k,C.a6),C.ar,6,new X.aX(r,C.n),s)),a,s,!0,t.H)},
 awS:function(a){var s=null,r=K.cK(new P.aG(50,50))
-E.dM(!0,new L.Zw(E.dz(s,s,T.al(H.a([L.l("Built and uploaded on: Thu Sep  3 09:40:47 CDT 2020",s,s,s,s,s,s,s,s,s,s,s),L.l("Flutter framework: "+H.b(C.vT.h(0,"frameworkVersion")),s,s,s,s,s,s,s,s,s,s,s),L.l("Dart version: "+H.b(C.vT.h(0,"dartSdkVersion")),s,s,s,s,s,s,s,s,s,s,s)],t.t),C.a4,C.k,C.a6),C.ar,6,new X.aX(r,C.n),s)),a,s,!0,t.H)},
+E.dM(!0,new L.Zw(E.dz(s,s,T.al(H.a([L.l("Built and uploaded on: Thu Sep  3 14:20:29 CDT 2020",s,s,s,s,s,s,s,s,s,s,s),L.l("Flutter framework: "+H.b(C.vT.h(0,"frameworkVersion")),s,s,s,s,s,s,s,s,s,s,s),L.l("Dart version: "+H.b(C.vT.h(0,"dartSdkVersion")),s,s,s,s,s,s,s,s,s,s,s)],t.t),C.a4,C.k,C.a6),C.ar,6,new X.aX(r,C.n),s)),a,s,!0,t.H)},
 awO:function(a){var s=null,r=K.cK(new P.aG(50,50))
 E.dM(!0,new L.Zb(E.dz(s,s,T.al(H.a([L.l("This audit cannot be scheduled as entered.  Please verify that all fields are filled.",s,s,s,s,s,s,s,s,s,s,s)],t.t),C.a4,C.k,C.a6),C.ar,6,new X.aX(r,C.n),s)),a,s,!0,t.H)},
 aGR:function(a){var s=null,r=K.cK(new P.aG(50,50))
@@ -39763,8 +39757,8 @@ q=H.a([],r)
 q.push(T.b2(M.df(J.f(n.a.d.f,k).d,n.a.f,1/0,3,12,m,$.ay(),m,!0),1))
 if(!J.f(n.a.d.f,k).fx){p=A.ml(J.f(n.a.d.f,k),"N/A")
 o=K.aY(20)
-q.push(D.aZ(m,new T.a_(new V.a5(0,0,0,8),M.o(m,T.b6(L.l("N/A",m,m,m,m,m,m,m,$.ay(),m,m,m),m,m),m,m,new S.aI(p,m,m,o,m,m,C.u),m,m,new V.a5(4,0,4,0),m,m,80),m),C.p,!1,m,m,m,m,m,m,m,m,m,m,m,new Q.afw(n,b,k,s),m,m,m,m,m,m))}q.push(D.aZ(m,new T.a_(C.at,Z.fT(C.uM,n.d?$.wt():C.A,m),m),C.p,!1,m,m,m,m,m,m,m,m,m,m,m,new Q.afx(n,k,b),m,m,m,m,m,m))
-return M.o(m,T.al(H.a([T.am(q,C.h,C.k,C.f,m),new U.iU(k,s,!0,!1,new Q.afy(n,b,k,s),m)],r),C.h,C.k,C.f),l,m,m,m,m,m,m,m,m)}}
+q.push(D.aZ(m,new T.a_(new V.a5(0,0,0,8),M.o(m,T.b6(L.l("N/A",m,m,m,m,m,m,m,$.ay(),m,m,m),m,m),m,m,new S.aI(p,m,m,o,m,m,C.u),m,m,new V.a5(4,0,4,0),m,m,80),m),C.p,!1,m,m,m,m,m,m,m,m,m,m,m,new Q.afw(n,b,k,s),m,m,m,m,m,m))}q.push(D.aZ(m,new T.a_(C.at,Z.fT(C.uM,n.d?$.wt():C.A,m),m),C.p,!1,m,m,m,m,m,m,m,m,m,m,m,new Q.afx(n,k,b,s),m,m,m,m,m,m))
+return M.o(m,T.al(H.a([T.am(q,C.h,C.k,C.f,m),new U.iU(k,s,!0,!1,new Q.afy(n),m)],r),C.h,C.k,C.f),l,m,m,m,m,m,m,m,m)}}
 Q.afw.prototype={
 $0:function(){var s,r,q,p,o=this,n=o.b,m=t.A
 if(Y.v(n,!1,m).b.y.Q!=="Scheduled")L.ce(n,!0,u.C)
@@ -39782,30 +39776,28 @@ Q.afv.prototype={
 $0:function(){},
 $S:0}
 Q.afx.prototype={
-$0:function(){var s,r,q=this.a,p=this.b
-J.f(q.a.d.f,p).Q=!J.f(q.a.d.f,p).Q
-P.x("textBoxRollOut: "+H.b(J.f(q.a.d.f,p).Q))
-p=this.c
-s=t.A
-r=Y.v(p,!1,s).b
-Y.v(p,!1,s).d0(r)
-q.v(new Q.afu())},
+$0:function(){var s,r,q,p=this,o=p.a,n=p.b
+J.f(o.a.d.f,n).Q=!J.f(o.a.d.f,n).Q
+P.x("textBoxRollOut: "+H.b(J.f(o.a.d.f,n).Q))
+s=p.c
+r=t.A
+q=Y.v(s,!1,r).b
+Y.v(s,!1,r).d0(q)
+Y.v(s,!1,r).fM(A.iM(o.a.d))
+Y.v(s,!1,r).fp(o.a.e,n,p.d)
+o.v(new Q.afu())},
 $S:0}
 Q.afu.prototype={
 $0:function(){},
 $S:0}
 Q.afy.prototype={
-$1:function(a){var s=this,r=s.a
-r.v(new Q.aft(r,a,s.b,s.c,s.d))},
+$1:function(a){var s=this.a
+s.v(new Q.aft(s,a))},
 $S:6}
 Q.aft.prototype={
-$0:function(){var s,r,q=this,p=q.a
-if(q.b.length>0)p.d=!0
-else p.d=!1
-s=q.c
-r=t.A
-Y.v(s,!1,r).fM(A.iM(p.a.d))
-Y.v(s,!1,r).fp(p.a.e,q.d,q.e)},
+$0:function(){var s=this.a
+if(this.b.length>0)s.d=!0
+else s.d=!1},
 $S:0}
 U.yX.prototype={
 S:function(){return new U.QX(C.j)}}
@@ -43700,8 +43692,7 @@ if(!i.LQ()&&C.c.dP(C.dd,k.r)>=C.c.dP(C.dd,C.bt)&&i.b.y.r!=="Follow Up")k.r=C.iD}
 LQ:function(){var s,r,q,p,o,n,m="changed to false 1st",l="changed to false 2nd"
 for(s=J.ap(this.b.e),r=!0;s.p();){q=s.gA(s)
 p=q.e
-if(p==="Confirm Details"){if(this.b.dx===!0)q.r=C.aP
-break}if(p==="Photos")break
+if(p==="Confirm Details"){if(this.b.dx===!0)q.r=C.aP}else{if(p==="Photos")break
 o=J.a7(p)
 n=$.aA
 if(n==null)H.ax(o)
@@ -43717,7 +43708,7 @@ else n.$1(m)
 r=!1}}else if(q.x!==C.aP){n=$.aA
 if(n==null)H.ax(l)
 else n.$1(l)
-r=!1}}P.x(r)
+r=!1}}}P.x(r)
 return r},
 DS:function(a){return t.t1.a(this.d.bx(0,H.b(a.d)+"-"+H.b(a.f)+"-"+H.b(a.x)+"-"+H.b(a.z)+"-"+H.b(a.r)))},
 PZ:function(a){var s,r,q,p,o,n,m="PreviousEvent",l="databaseVar",k="OriginalAnswer",j="OriginalComments",i=a.r,h=t.t1
